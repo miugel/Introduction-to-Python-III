@@ -49,7 +49,7 @@ class Store:
 class Department:
     def __init__(self, name):
         self.name = name
-        self.product  = []
+        self.products = []
         
     def add_product(self, product):
         self.products.append(product)
